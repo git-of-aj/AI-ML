@@ -141,12 +141,12 @@ While these approaches can be effective for specific tasks, they often lack the 
 
 
 # Python in AI
-Data Preparation: Scikit-learn for preprocessing.
-Model Development: TensorFlow for deep learning; Scikit-learn for traditional ML.
-Training: TensorFlow for training deep networks.
-Evaluation: Scikit-learn for performance metrics.
-Deployment: TensorFlow Serving for production.
-NLP Tasks: Llama for advanced language models.
+- Data Preparation: Scikit-learn for preprocessing.
+- Model Development: TensorFlow for deep learning; Scikit-learn for traditional ML.
+- Training: TensorFlow for training deep networks.
+- Evaluation: Scikit-learn for performance metrics.
+- Deployment: TensorFlow Serving for production.
+- NLP Tasks: Llama for advanced language models.
 ### Augmented Reality (AR)
 
 **Definition**: Augmented Reality (AR) is a technology that overlays digital information—such as images, sounds, or other data—onto the real world, enhancing the user's perception of their environment. This can be experienced through devices like smartphones, tablets, or AR glasses.
