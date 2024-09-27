@@ -1,5 +1,13 @@
 ## [MS Learn AI-900 Good Basics Can read](https://learn.microsoft.com/en-us/training/courses/ai-900t00)
 
+# TOC
+1. [AI = ML + DL]
+2. [High-Level Overview of Creating an AI Model]
+3. [AI WHen Not required ML or DL ]
+4. [What is a Neural Network?]
+5. [Python in AI]
+6. [How AR Differs from AI](#how-ar-differs-from-ai)
+
 # AI = ML + DL 
 > Yes, it is correct to say that **AI = ML + DL** in a broad sense. Here's a breakdown:
 
@@ -19,7 +27,7 @@ This equation helps clarify the relationship between these fields!
 
 Yes, to create an AI model, you typically start by developing a machine learning (ML) model, as ML is a foundational component of many AI applications. Here’s a high-level overview of the process of creating an AI model:
 
-### High-Level Overview of Creating an AI Model
+# High-Level Overview of Creating an AI Model
 
 1. **Define the Problem**
    - Identify the specific task or problem you want the AI to solve (e.g., classification, regression, object detection).
@@ -59,6 +67,7 @@ Yes, to create an AI model, you typically start by developing a machine learning
 ### Summary
 
 Creating an AI model typically involves building an ML model first, as ML provides the methodologies and techniques for training algorithms to perform intelligent tasks. Each step in this process is crucial to ensure the development of a robust and effective AI solution.
+
 # AI WHen Not required ML or DL 
 Creating an AI model without machine learning (ML) or deep learning (DL) is possible in certain scenarios, but it typically involves using rule-based or heuristic approaches rather than the data-driven techniques that characterize ML and DL. Here are some methods you might consider:
 
@@ -109,22 +118,8 @@ Here are some use cases for the alternative approaches to AI that don’t rely o
 
 ### Summary
 While these approaches can be effective for specific tasks, they often lack the adaptability and scalability of ML and DL methods. Nonetheless, they serve important roles in domains where rule-based logic and expertise can provide clear, actionable solutions.
-### Augmented Reality (AR)
 
-**Definition**: Augmented Reality (AR) is a technology that overlays digital information—such as images, sounds, or other data—onto the real world, enhancing the user's perception of their environment. This can be experienced through devices like smartphones, tablets, or AR glasses.
-
-**Key Features**:
-- **Real-Time Interaction**: AR systems interact with the real world in real-time.
-- **3D Registration**: Digital objects are accurately aligned with physical objects.
-- **Combines Real and Virtual Elements**: Users can see both the real world and digital enhancements simultaneously.
-
-**Applications**:
-- Gaming (e.g., Pokémon GO)
-- Education (interactive learning experiences)
-- Retail (virtual try-ons)
-- Navigation (directions overlaid on the real world)
-
-### What is a Neural Network?
+# What is a Neural Network?
 - **Inspired by the Brain**: Computational model mimicking brain function.
 - **Layers**:
   - **Input Layer**: Receives data (features).
@@ -144,10 +139,33 @@ While these approaches can be effective for specific tasks, they often lack the 
 - **Autonomous Vehicles**: Navigating and understanding surroundings using sensor data.
 - **Recommendation Systems**: Personalizing suggestions based on user behavior (e.g., Netflix, Amazon).
 
+
+# Python in AI
+Data Preparation: Scikit-learn for preprocessing.
+Model Development: TensorFlow for deep learning; Scikit-learn for traditional ML.
+Training: TensorFlow for training deep networks.
+Evaluation: Scikit-learn for performance metrics.
+Deployment: TensorFlow Serving for production.
+NLP Tasks: Llama for advanced language models.
+### Augmented Reality (AR)
+
+**Definition**: Augmented Reality (AR) is a technology that overlays digital information—such as images, sounds, or other data—onto the real world, enhancing the user's perception of their environment. This can be experienced through devices like smartphones, tablets, or AR glasses.
+
+**Key Features**:
+- **Real-Time Interaction**: AR systems interact with the real world in real-time.
+- **3D Registration**: Digital objects are accurately aligned with physical objects.
+- **Combines Real and Virtual Elements**: Users can see both the real world and digital enhancements simultaneously.
+
+**Applications**:
+- Gaming (e.g., Pokémon GO)
+- Education (interactive learning experiences)
+- Retail (virtual try-ons)
+- Navigation (directions overlaid on the real world)
+
 ### Conclusion
 - **Core of Modern AI**: Essential for deploying intelligent applications, especially in cloud environments.
 
-### How AR Differs from AI
+# How AR Differs from AI
 
 **Nature of Technology**:
 - **AR**: Primarily focused on enhancing the real-world experience through the addition of digital content.
