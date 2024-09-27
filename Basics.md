@@ -1,6 +1,22 @@
 ## [MS Learn AI-900 Good Basics Can read](https://learn.microsoft.com/en-us/training/courses/ai-900t00)
 
 # AI = ML + DL 
+> Yes, it is correct to say that **AI = ML + DL** in a broad sense. Here's a breakdown:
+
+- **AI (Artificial Intelligence)**: The overarching field that encompasses any technique enabling machines to mimic human intelligence.
+
+- **ML (Machine Learning)**: A subset of AI that focuses on the development of algorithms that allow computers to learn from and make predictions based on data.
+
+- **DL (Deep Learning)**: A further subset of ML that uses neural networks with many layers (hence "deep") to analyze various types of data. It's particularly effective for tasks like image and speech recognition.
+
+### Summary
+So, in a hierarchical view:
+- AI includes all forms of intelligent behavior.
+- ML is a method used within AI to enable systems to learn from data.
+- DL is a specialized approach within ML, often utilizing complex neural networks.
+
+This equation helps clarify the relationship between these fields!
+
 Yes, to create an AI model, you typically start by developing a machine learning (ML) model, as ML is a foundational component of many AI applications. Here’s a high-level overview of the process of creating an AI model:
 
 ### High-Level Overview of Creating an AI Model
@@ -107,6 +123,29 @@ While these approaches can be effective for specific tasks, they often lack the 
 - Education (interactive learning experiences)
 - Retail (virtual try-ons)
 - Navigation (directions overlaid on the real world)
+
+### What is a Neural Network?
+- **Inspired by the Brain**: Computational model mimicking brain function.
+- **Layers**:
+  - **Input Layer**: Receives data (features).
+  - **Hidden Layers**: Processes data, identifies patterns.
+  - **Output Layer**: Produces final results (e.g., classifications).
+
+### Significance of Neural Networks
+- **Pattern Recognition**: Excellent at identifying complex data patterns.
+- **Flexibility**: Adaptable to various tasks (image, text, sound).
+- **Data-Driven Learning**: Improves performance with large datasets.
+
+### Use Cases in AI
+- **Image Classification**: Identifying objects (e.g., cats vs. dogs).
+- **Natural Language Processing (NLP)**: Understanding/generating human language (e.g., chatbots).
+- **Speech Recognition**: Converting speech to text (e.g., virtual assistants).
+- **Medical Diagnosis**: Analyzing medical images for disease detection.
+- **Autonomous Vehicles**: Navigating and understanding surroundings using sensor data.
+- **Recommendation Systems**: Personalizing suggestions based on user behavior (e.g., Netflix, Amazon).
+
+### Conclusion
+- **Core of Modern AI**: Essential for deploying intelligent applications, especially in cloud environments.
 
 ### How AR Differs from AI
 
