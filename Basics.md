@@ -1,11 +1,11 @@
 ## [MS Learn AI-900 Good Basics Can read](https://learn.microsoft.com/en-us/training/courses/ai-900t00)
 
 # TOC
-1. [AI = ML + DL]
-2. [High-Level Overview of Creating an AI Model]
-3. [AI WHen Not required ML or DL ]
-4. [What is a Neural Network?]
-5. [Python in AI]
+1. [AI = ML + DL](#ai-ml-dl)
+2. [High-Level Overview of Creating an AI Model](#high-level-overview-of-creating-an-ai-model)
+3. [AI When Not Required ML or DL](#ai-when-not-required-ml-or-dl)
+4. [What is a Neural Network?](#what-is-a-neural-network)
+5. [Python in AI](#python-in-ai)
 6. [How AR Differs from AI](#how-ar-differs-from-ai)
 
 # AI = ML + DL 
