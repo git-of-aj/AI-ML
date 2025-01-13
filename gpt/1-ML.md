@@ -1,3 +1,5 @@
+[text encoding means how numbers represents character .. it will be E or E`](https://support.microsoft.com/en-us/office/choose-text-encoding-when-you-open-and-save-files-60d59c21-88b5-4006-831c-d536d42fd861#:~:text=Understand%20text%20encoding&text=An%20encoding%20standard%20is%20a,%2C%20numbers%2C%20and%20other%20symbols.)
+# ML Model architectures
 Here’s a list of common **ML model architectures** and their **real-world use cases**:
 
 ### 1. **Linear Regression**
