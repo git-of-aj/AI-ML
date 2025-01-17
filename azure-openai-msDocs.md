@@ -41,6 +41,8 @@ Yes, as part of Azure AI services, Azure OpenAI supports VNETs and Private Endpo
 ## Model FAQ
 > I asked the model a question about something that happened recently before the knowledge cutoff and it got the answer wrong.
  First there's no guarantee that every recent event was part of the model's training data. And even when information was part of the training data, without using additional techniques like Retrieval Augmented Generation (RAG) to help ground the model's responses there's always a chance of ungrounded responses occurring. Both Azure OpenAI's use your data feature and Bing Chat use Azure OpenAI models combined with Retrieval Augmented Generation to help further ground model responses.
+> Fine Tune Model: Q=> whats NP A=> 30 days
+A base model is a model that hasn't been customized or fine-tuned for a specific use case. Fine-tuned models are customized versions of base models where a model's weights are trained on a unique set of prompts. Fine-tuned models let you achieve better results on a wider number of tasks without needing to provide detailed examples for in-context learning as part of your completion prompt. To learn more, review our fine-tuning guide.
 
 ## Temperature
 - Temperature in prompt generation controls response randomness. A low temperature (e.g., 0.2) makes the output more deterministic and focused, while a high temperature (e.g., 0.8) increases randomness, allowing for more creative and varied responses. It balances predictability versus creativity in generated content.
