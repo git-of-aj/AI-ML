@@ -1,3 +1,10 @@
+## Why Azure OpenAI
+Azure OpenAI Service gives customers advanced language AI with OpenAI GPT-3, Codex, and DALL-E models with the security and enterprise promise of Azure. Azure OpenAI codevelops the APIs with OpenAI, ensuring compatibility and a smooth transition from one to the other.
+
+With Azure OpenAI, customers get the security capabilities of Microsoft Azure while running the same models as OpenAI.
+
+Does Azure OpenAI support VNETs and Private Endpoints?
+Yes, as part of Azure AI services, Azure OpenAI supports VNETs and Private Endpoints.
 ## Pricing
 - based on Standard (On-Demand): Pay-as-you-go for input and output tokens.
 - [How tokens calculated](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview#tokens)
@@ -23,7 +30,10 @@
 - **Provisioned deployments** recommended for low latency variance at large workloads.
 
 **Data Zone**:
+> Azure OpenAI resource used in your Data Zone deployment is located in the United States, the data will be processed within the United States
 - **Data zone deployments** use Azure’s global infrastructure for optimal traffic routing within a specified data zone.
 - **Elevated quota limits** while keeping data processing within the Microsoft-defined data zone.
 - Data stored at rest remains in the **Azure geography** of the resource (e.g., Sweden, US, EU).
 - **Data processing compliance** and **Azure commitments** apply for all deployment types.
+
+> For both Global and DataZone deployment types, any data you upload is stored in the location you choose (your designated geography). The only thing that changes with Global or DataZone deployments is where the data is processed. Azure still follows its data processing rules and commitments. Yes, that's correct! In both Global and DataZone deployment types, the **storage** (where your data is saved) is in the location you choose, but the **compute** (where your data is processed) can be in a different location. This means the data processing happens in one region, while the storage stays in the region you selected.
