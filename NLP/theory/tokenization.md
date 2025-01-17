@@ -90,3 +90,47 @@ The choice between these tokenizers depends on the **nature of your task** and t
 
 # destructive tokenizer
 The tokenizer is “destructive” such that the regexes applied will munge the input string to a state beyond re-construction. It is possible to apply TreebankWordDetokenizer.detokenize to the tokenized outputs of NLTKDestructiveWordTokenizer.tokenize but there’s no guarantees to revert to the original string.
+
+# [word tokenizer](https://www.nltk.org/api/nltk.tokenize.word_tokenize.html)
+In the context of `nltk.tokenize.word_tokenize`, the `preserve_line` parameter controls whether the tokenizer preserves line breaks when splitting the text into words.
+
+Here’s a detailed explanation of what it does:
+
+- **`preserve_line=False` (default behavior)**: When `preserve_line` is set to `False`, the function tokenizes the input text into words but ignores line breaks (i.e., the tokenizer will treat the entire input text as a single sequence of words and won't preserve any line breaks in the output).
+
+- **`preserve_line=True`**: If you set `preserve_line` to `True`, the tokenizer will maintain the line breaks as they appear in the input text. This means that when tokenizing, it will split words while also preserving the structure of the text, including any line breaks.
+
+This option is useful when you want to maintain the original formatting of the text, such as when tokenizing a paragraph with specific line breaks or formatting. If you don't need to preserve line breaks and just want a list of words, you can leave it as the default (`False`).
+
+### Example:
+
+1. **With `preserve_line=False` (default):**
+
+```python
+import nltk
+nltk.download('punkt')
+text = "Hello world.\nThis is a test."
+tokens = nltk.tokenize.word_tokenize(text, preserve_line=False)
+print(tokens)
+```
+
+**Output:**
+```python
+['Hello', 'world', '.', 'This', 'is', 'a', 'test', '.']
+```
+Here, the line break (`\n`) is ignored.
+
+2. **With `preserve_line=True`:**
+
+```python
+tokens = nltk.tokenize.word_tokenize(text, preserve_line=True)
+print(tokens)
+```
+
+**Output:**
+```python
+['Hello', 'world', '.', '\n', 'This', 'is', 'a', 'test', '.']
+```
+In this case, the line break (`\n`) is preserved as a token in the output.
+
+This feature can be helpful when processing texts where the structure (including line breaks) is important for analysis or when dealing with formatted text, such as poetry or prose.
