@@ -40,10 +40,18 @@ plurals = ['caresses', 'flies', 'dies', 'mules', 'denied',
             'meeting', 'stating', 'siezing', 'itemization',
             'sensational', 'traditional', 'reference', 'colonizer',
             'plotted','mice','oxen','men','children','teeth','cities','London']
-
+"""
+convert list into string
+' '.join(plurals) ==> caresses flies dies mules denied died
+"""
 # Tokenize the words and get POS tags
 tokens = word_tokenize(' '.join(plurals))
 pos_tags = nltk.pos_tag(tokens)
+
+"""
+we get pos tags like:
+('caresses', 'NNS'), ('flies', 'NNS'), ('dies', 'VBZ')
+"""
 
 # Lemmatize based on POS tags
 lemmatized_words = [
