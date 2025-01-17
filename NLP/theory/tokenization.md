@@ -87,3 +87,6 @@ Here’s a decision flow for determining the tokenizer to use, based on the natu
 - **Punctuation**: Treat punctuation separately when it impacts syntax, meaning, or sentiment. In tasks like parsing or sentiment analysis, punctuation plays a crucial role, so keep it as a separate token.
 
 The choice between these tokenizers depends on the **nature of your task** and the level of analysis you need to perform. Consider these aspects when designing your NLP pipeline to ensure you're using the right tokenizer for your application.
+
+# destructive tokenizer
+The tokenizer is “destructive” such that the regexes applied will munge the input string to a state beyond re-construction. It is possible to apply TreebankWordDetokenizer.detokenize to the tokenized outputs of NLTKDestructiveWordTokenizer.tokenize but there’s no guarantees to revert to the original string.
