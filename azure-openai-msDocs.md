@@ -37,3 +37,16 @@ Yes, as part of Azure AI services, Azure OpenAI supports VNETs and Private Endpo
 - **Data processing compliance** and **Azure commitments** apply for all deployment types.
 
 > For both Global and DataZone deployment types, any data you upload is stored in the location you choose (your designated geography). The only thing that changes with Global or DataZone deployments is where the data is processed. Azure still follows its data processing rules and commitments. Yes, that's correct! In both Global and DataZone deployment types, the **storage** (where your data is saved) is in the location you choose, but the **compute** (where your data is processed) can be in a different location. This means the data processing happens in one region, while the storage stays in the region you selected.
+
+## Model FAQ
+> I asked the model a question about something that happened recently before the knowledge cutoff and it got the answer wrong.
+ First there's no guarantee that every recent event was part of the model's training data. And even when information was part of the training data, without using additional techniques like Retrieval Augmented Generation (RAG) to help ground the model's responses there's always a chance of ungrounded responses occurring. Both Azure OpenAI's use your data feature and Bing Chat use Azure OpenAI models combined with Retrieval Augmented Generation to help further ground model responses.
+
+## Temperature
+- Temperature in prompt generation controls response randomness. A low temperature (e.g., 0.2) makes the output more deterministic and focused, while a high temperature (e.g., 0.8) increases randomness, allowing for more creative and varied responses. It balances predictability versus creativity in generated content.
+The temperature value depends on the desired output:
+
+- **Low temperature (0.1–0.5):** Use for precise, consistent, and focused answers, where accuracy is important.
+- **Higher temperature (0.6–1):** Use for creative, diverse, and exploratory responses, where variety is valued.
+
+Values over 1 can make output overly random and less coherent, so typically, temperatures are set below 1.
