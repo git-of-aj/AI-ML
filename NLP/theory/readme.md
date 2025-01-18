@@ -1,3 +1,13 @@
+## Python Tips:
+1. List Comprehension:
+> new_list = [expression for item in iterable if condition]
+- it runs reverse (bottom line ==> right side)
+- item which should be present in list in left side 
+2. Regex
+> re.sub(pattern, repl, string, count=0, flags=0)
+
+Return the string obtained by replacing the leftmost non-overlapping occurrences of pattern in string by the replacement repl. If the pattern isn’t found, string is returned unchanged
+
 ### corpus / corpora
 A **corpus** is a large, structured collection of text data used in natural language processing (NLP). It serves as a resource for training models, testing algorithms, and performing linguistic analysis. Examples include datasets of news articles, books, or conversations for various NLP tasks.
 
