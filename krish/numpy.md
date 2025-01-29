@@ -168,25 +168,30 @@ Layer 1 (first matrix):
 
 Layer 2 (second matrix):
 [[5, 6]]
+```
 First axis (axis 0): Represents the layers of the array. In this case, there are 2 layers (Layer 1 and Layer 2).
 Second axis (axis 1): Represents the rows inside each layer.
+
 Layer 1 has 2 rows: [1, 2] and [3, 4].
 Layer 2 has 1 row: [5, 6].
+
 Third axis (axis 2): Represents the elements in each row. Each row contains 2 elements.
-Dimensions:
+
+**Dimensions:**
 This array has an irregular structure for the second axis, where Layer 1 has 2 rows, but Layer 2 only has 1 row.
 
-Shape:
+**Shape:**
 The array has a shape of (2, 2, 2), but you may notice that the "2nd axis" isn't uniform across the layers.
 
-Here’s how the shape is structured:
+**Here’s how the shape is structured:**
 
-First dimension (axis 0): 2 layers (Layer 1 and Layer 2).
-Second dimension (axis 1): The number of rows in each layer:
+- First dimension (axis 0): 2 layers (Layer 1 and Layer 2).
+- Second dimension (axis 1): The number of rows in each layer:
 Layer 1 has 2 rows.
 Layer 2 has 1 row.
-Third dimension (axis 2): The number of elements in each row is 2, consistent across both layers.
-To summarize:
+- Third dimension (axis 2): The number of elements in each row is 2, consistent across both layers.
+
+**To summarize:**
 ndim: 3, as it's still a 3D array (despite having a different number of rows in the second layer).
 Shape: (2, 2, 2) – It’s a 3D array with 2 layers, but one layer is irregular in terms of the number of rows.
 In NumPy, for arrays of this kind, it would still be treated as a 3D array, but it's important to note that each layer does not necessarily have to have the same number of rows (this would depend on the data you're working with).
