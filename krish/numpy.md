@@ -121,6 +121,19 @@ Both of these features make your code **simpler**, **faster**, and **more Python
 
 # Example:
 > NumPy’s main object is the homogeneous multidimensional array. It is a table of elements (usually numbers), all of the same type, indexed by a tuple of non-negative integers. In NumPy dimensions are called axes.
+> simple example:
+```py
+import numpy as np
+
+arr = np.array([[1, 2, 3, 4, 5],
+                [2, 3, 4, 5, 6],
+                [9, 7, 6, 8, 9]])
+
+print(arr.shape)
+# (3, 5) ==> tuple
+
+```
+now:
 ```py
 import numpy as np
 arr_3d = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
