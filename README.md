@@ -1,6 +1,13 @@
 # AI-ML
 All AI
 - [agentic ai vs gen ai](https://eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/agentic-ai-vs-generative-ai/)
+- [ Exploratory Data Analysis - EDA](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/)
+```py
+how to perform - check how accurancy impacted
+1. handle missing values (numpy, pandas,seaborn,matplotlib, -- kaggle kernel for example)
+2. feature selection
+3.
+```
 ## RAG - Retrieval Augmented Generation
 - Retrieval-Augmented Generation (RAG) combines information retrieval and text generation. It first retrieves relevant documents from a database and then uses these documents to generate more accurate and contextually informed responses, enhancing the quality of generated text by grounding it in real-world information.
 - 
