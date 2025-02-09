@@ -2,6 +2,7 @@
 All AI
 - [agentic ai vs gen ai](https://eicta.iitk.ac.in/knowledge-hub/artificial-intelligence/agentic-ai-vs-generative-ai/)
 - [ Exploratory Data Analysis - EDA](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/)
+### [openai labs](https://github.com/MicrosoftLearning/mslearn-openai/tree/main)
 ```py
 how to perform - check how accurancy impacted
 1. handle missing values (numpy, pandas,seaborn,matplotlib, -- kaggle kernel for example)
