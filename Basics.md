@@ -1,4 +1,4 @@
-## cloud adopt framework
+## cloud adopt framework - [very good guide for architect: how setup](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy)
 - AI enhances individual efficiency and improves business processes.
 - Generative AI fosters productivity and enhances customer experiences.
 - Nongenerative AI, such as machine learning, is ideal for analyzing structured data and automating repetitive tasks.
