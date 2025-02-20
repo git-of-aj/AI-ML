@@ -3,6 +3,7 @@
 - Generative AI fosters productivity and enhances customer experiences.
 - Nongenerative AI, such as machine learning, is ideal for analyzing structured data and automating repetitive tasks.
 - [AI USE CASES : MS DOCS ](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/strategy#example-ai-use-cases)
+- [AI ARCHITECTURE: MS DOCS](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/)
 ## [MS Learn AI-900 Good Basics Can read](https://learn.microsoft.com/en-us/training/courses/ai-900t00)
 
 # TOC
