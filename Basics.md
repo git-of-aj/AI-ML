@@ -1,3 +1,7 @@
+## cloud adopt framework
+- AI enhances individual efficiency and improves business processes.
+- Generative AI fosters productivity and enhances customer experiences.
+- Nongenerative AI, such as machine learning, is ideal for analyzing structured data and automating repetitive tasks. 
 ## [MS Learn AI-900 Good Basics Can read](https://learn.microsoft.com/en-us/training/courses/ai-900t00)
 
 # TOC
