@@ -26,3 +26,14 @@ Semantic search improves search accuracy by understanding the meaning behind the
 - Project: A task or AI application within the hub, where you build and fine-tune your AI models. Projects get access to resources from the hub but also have their own private storage.
 - Connections: These are the bridges that let projects and hubs access other resources (like data, OpenAI models, etc.).
 - Management Center: The control center where you manage everything in Azure AI Foundry.
+
+> An embedding is a vector (list) of floating point numbers. The distance between two vectors measures their relatedness. Small distances suggest high relatedness and large distances suggest low relatedness.
+
+# my project
+> Azure AI Search serves as the mechanism to retrieve relevant information from your dataset, while Azure OpenAI takes that information and generates a response based on it. Together, they enable efficient, accurate, and contextually rich responses in use cases like customer support, document summarization, Q&A, and more.
+RAG (Retrieval-Augmented Generation) in Action:
+- Suppose you have a customer support knowledge base stored in Azure Blob Storage, indexed by Azure AI Search.
+- A user asks a support query, such as "How can I reset my password?"
+- Azure AI Search retrieves the relevant sections of the knowledge base that discuss password resets.
+- The retrieved documents (or parts of documents) are sent to Azure OpenAI, which generates a response by synthesizing the content, perhaps answering, "To reset your password, go to the login page, click on 'Forgot Password,' and follow the instructions..."
+- This response is then sent back to the user.
