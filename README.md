@@ -16,7 +16,7 @@ A real-time example of RAG is in customer support chatbots. When a user asks a s
 
 ## Semantic Search
 Semantic search improves search accuracy by understanding the meaning behind the query, rather than relying on keyword matching. It uses natural language processing (NLP) and machine learning to retrieve relevant results based on context, intent, and semantic relationships, providing more accurate and meaningful answers.
-# Ai Foundry
+# Ai Foundry - [annoucement](https://techcommunity.microsoft.com/blog/aiplatformblog/ignite-2024-announcing-the-azure-ai-foundry-sdk/4295862)
 > AI platform that includes both our Azure AI Foundry portal (formerly Azure AI Studio), and the Azure AI Foundry SDK, our unified SDK with pre-built app templates enabling developers to: 
 1. Access our most popular models through a single interface 
 2. Easily integrate Azure AI into their apps 
