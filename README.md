@@ -16,3 +16,8 @@ A real-time example of RAG is in customer support chatbots. When a user asks a s
 
 ## Semantic Search
 Semantic search improves search accuracy by understanding the meaning behind the query, rather than relying on keyword matching. It uses natural language processing (NLP) and machine learning to retrieve relevant results based on context, intent, and semantic relationships, providing more accurate and meaningful answers.
+# Ai Foundry
+Hub: The "big container" that holds and connects multiple projects. It's where you manage resources, security, and compute resources.
+Project: A task or AI application within the hub, where you build and fine-tune your AI models. Projects get access to resources from the hub but also have their own private storage.
+Connections: These are the bridges that let projects and hubs access other resources (like data, OpenAI models, etc.).
+Management Center: The control center where you manage everything in Azure AI Foundry.
